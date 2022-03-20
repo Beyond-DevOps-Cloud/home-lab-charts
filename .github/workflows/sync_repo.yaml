@@ -1,25 +1,25 @@
 name: Sync Helm Repo
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: 'master'
-          path: 'master'
+          ref: 'main'
+          path: 'main'
       - uses: actions/checkout@v2
         with:
           ref: 'repo'
           path: 'repo'   
       - uses: azure/setup-helm@v1
       - name: Sync Helm Repo
-        run: cd master && sh sync_repo.sh
+        run: cd main && sh sync_repo.sh
       - name: Move repo folder
         run: |
-          mv master/repo/* repo/
+          mv main/repo/* repo/
           cd repo
           git config user.email "dorkmeisterx69@gmail.com"
           git config user.name "Andrew Jackson"
