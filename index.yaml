@@ -3,9 +3,9 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-20T20:57:33.580902001Z"
+    created: "2022-03-21T00:04:48.468613833Z"
     description: A Helm chart for Kubernetes
-    digest: a5f217352ca7b69903aef6eec0c7287d42d85440653a36ed9b36d8aa1a198b13
+    digest: bb3cb62437e11db3f21f0c2ea6cebef0facf18d67c85b14f73d33669ca5718c3
     name: example
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   grocy:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-03-20T20:57:33.582110005Z"
+    created: "2022-03-21T00:04:48.469164736Z"
     description: A Helm chart for Kubernetes
-    digest: e7283aea3f349220421ab4914a38f7ef343475385840ccb1200597451643aec6
+    digest: f5871bcc2da83bc2c371252a440f05f6f226045afeced87ce99650ba77ce6ab9
     name: grocy
     type: application
     urls:
     - grocy-0.1.2.tgz
     version: 0.1.2
-generated: "2022-03-20T20:57:33.579934597Z"
+generated: "2022-03-21T00:04:48.464875908Z"
