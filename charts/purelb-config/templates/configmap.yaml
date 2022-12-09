@@ -8,3 +8,4 @@ spec:
     v4pool: 
       subnet: '192.168.32.0/24'
       pool: '192.168.32.0/24'
+      aggregation: default
