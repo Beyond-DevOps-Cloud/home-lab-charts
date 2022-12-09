@@ -3,7 +3,7 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-09T14:49:08.762059241Z"
+    created: "2022-12-09T15:25:32.269032583Z"
     description: A Helm chart for Kubernetes
     digest: 5876e6dbc9fb0020c1e10c79dd8db69933fac7a3c3170fa1c7b93ab0fe305ad6
     name: example
@@ -14,7 +14,7 @@ entries:
   grocy:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-12-09T14:49:08.762671253Z"
+    created: "2022-12-09T15:25:32.270014394Z"
     description: A Helm chart for Kubernetes
     digest: fc70d036559602387e926d4fcd2c82a99946668c22f750adf58a94d1befdd4e1
     name: grocy
@@ -24,13 +24,13 @@ entries:
     version: 0.1.3
   metallb-config:
   - apiVersion: v2
-    appVersion: 0.0.7
-    created: "2022-12-09T14:49:08.762970459Z"
+    appVersion: 0.0.8
+    created: "2022-12-09T15:25:32.2705138Z"
     description: A Helm chart for Kubernetes
-    digest: 30b2c8c299654a251b1746a5a32a11e3fcf97bd90b36f15b4b482d74ed8ea19f
+    digest: aad40247bd43eb6ca4c8845c368f9a9d3327d18b07d0efef4d392f8b3c5111c2
     name: metallb-config
     type: application
     urls:
-    - metallb-config-0.0.7.tgz
-    version: 0.0.7
-generated: "2022-12-09T14:49:08.761272125Z"
+    - metallb-config-0.0.8.tgz
+    version: 0.0.8
+generated: "2022-12-09T15:25:32.268410576Z"
