@@ -3,20 +3,20 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-09T18:30:37.699761991Z"
+    created: "2022-12-09T19:37:22.528676781Z"
     description: A Helm chart for Kubernetes
-    digest: 5876e6dbc9fb0020c1e10c79dd8db69933fac7a3c3170fa1c7b93ab0fe305ad6
+    digest: 9970c4fdb1f5e92f3765506af23c49ae982e642b49c906c8d624daedf98cf6da
     name: example
     type: application
     urls:
-    - example-0.1.0.tgz
-    version: 0.1.0
+    - example-0.1.1.tgz
+    version: 0.1.1
   grocy:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-12-09T18:30:37.700288891Z"
+    created: "2022-12-09T19:37:22.529120787Z"
     description: A Helm chart for Kubernetes
-    digest: fc70d036559602387e926d4fcd2c82a99946668c22f750adf58a94d1befdd4e1
+    digest: 5adc0b4346a5281201d16f38c4e09e366eaf92801e68937319ada2fcbcda364d
     name: grocy
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   metallb-config:
   - apiVersion: v2
     appVersion: 0.0.8
-    created: "2022-12-09T18:30:37.700680591Z"
+    created: "2022-12-09T19:37:22.529421691Z"
     description: A Helm chart for Kubernetes
-    digest: f76d77680e721cefd858bc0391f01a21ac61335c74db67fa8965a38f18097d9e
+    digest: c657bde747ca5e0cd2eedb39b0318e94b714dec7361729344972b52ed32f13a2
     name: metallb-config
     type: application
     urls:
@@ -36,12 +36,12 @@ entries:
   purelb-config:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-12-09T18:30:37.701055291Z"
+    created: "2022-12-09T19:37:22.529710595Z"
     description: A Helm chart for Kubernetes
-    digest: a4a33578e948aaa244588aa31e10833e0ada89529bdf7feee5ae9e8099ebc5d3
+    digest: 23b24f6694b4a09977597464f1e36b74706cf31c2b08e30d7ba620f234abd0f0
     name: purelb-config
     type: application
     urls:
     - purelb-config-0.0.2.tgz
     version: 0.0.2
-generated: "2022-12-09T18:30:37.69905149Z"
+generated: "2022-12-09T19:37:22.528118474Z"
