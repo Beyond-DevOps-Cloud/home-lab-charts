@@ -25,6 +25,8 @@ serviceAccount:
   name: ""
 
 podAnnotations: {}
+serviceAnnotations: 
+  purelb.io/allocated-by: PureLB
 
 podSecurityContext: {}
   # fsGroup: 2000
@@ -40,8 +42,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
-  annotations:
-    purelb.io/allocated-by: PureLB
+
 
 ingress:
   enabled: false
