@@ -15,12 +15,17 @@ metadata:
 spec:
   ipAddressPools:
   - production
+
 ---
-apiVersion: metallb.io/v1beta1
-kind: L2Advertisement
+apiVersion: v1
+kind: ConfigMap
 metadata:
-  name: l2advertisement
   namespace: metallb-system
-spec:
-  ipAddressPools:
-   - production
+  name: config
+data:
+  config: |
+    address-pools:
+    - name: default
+      protocol: layer2
+      addresses:
+      - 192.168.59.20-192.168.59.30
