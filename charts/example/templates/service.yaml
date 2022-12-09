@@ -4,7 +4,10 @@ metadata:
   name: {{ include "example.fullname" . }}
   labels:
     {{- include "example.labels" . | nindent 4 }}
-spec:
+{{- with .Values.serviceAnnotations }}
+  annotations:
+    {{- toYaml . | nindent 8 }}
+{{- end }}spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}

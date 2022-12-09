@@ -40,6 +40,8 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  annotations:
+    purelb.io/allocated-by: PureLB
 
 ingress:
   enabled: false
