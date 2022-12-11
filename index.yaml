@@ -3,7 +3,7 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-11T21:10:26.179471521Z"
+    created: "2022-12-11T21:46:20.930062611Z"
     description: A Helm chart for Kubernetes
     digest: c7c3f87bb13da50d145f249ff61f133e29f644c011a4d6ad55894ad38c286754
     name: example
@@ -14,7 +14,7 @@ entries:
   grocy:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-12-11T21:10:26.17993833Z"
+    created: "2022-12-11T21:46:20.930584817Z"
     description: A Helm chart for Kubernetes
     digest: 8a922d0f3f45664e9d27a315e575ec9d31f2105a129078e387470e1b7e348d6a
     name: grocy
@@ -25,7 +25,7 @@ entries:
   metallb-config:
   - apiVersion: v2
     appVersion: 0.0.10
-    created: "2022-12-11T21:10:26.180278837Z"
+    created: "2022-12-11T21:46:20.930902821Z"
     description: A Helm chart for Kubernetes
     digest: dc7d4b7016bde080abf74a8907b9774fc72cd5886730ff3df66e89ca41b8d25e
     name: metallb-config
@@ -36,7 +36,7 @@ entries:
   purelb-config:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-12-11T21:10:26.180758748Z"
+    created: "2022-12-11T21:46:20.931210625Z"
     description: A Helm chart for Kubernetes
     digest: a3c8dca98cd83ec4e28ef7dc02de482cd3d0d85a2c4c25a5c740ef9f4987510c
     name: purelb-config
@@ -44,4 +44,15 @@ entries:
     urls:
     - purelb-config-0.0.2.tgz
     version: 0.0.2
-generated: "2022-12-11T21:10:26.178859108Z"
+  tekton-pipelines:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-12-11T21:46:20.93156663Z"
+    description: A Helm chart for Kubernetes
+    digest: 903c822395b4e3a7990fcf2b9204129518b02e07787409bb8ec2e1f16abb87e2
+    name: tekton-pipelines
+    type: application
+    urls:
+    - tekton-pipelines-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-12-11T21:46:20.929404202Z"
