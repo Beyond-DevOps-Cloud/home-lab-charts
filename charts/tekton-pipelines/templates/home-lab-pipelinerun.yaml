@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  name: home-lab-pipeline-run-
+  name: home-lab-pipeline-run
   generateName: home-lab-pipeline-run-
 spec:
   pipelineRef:
