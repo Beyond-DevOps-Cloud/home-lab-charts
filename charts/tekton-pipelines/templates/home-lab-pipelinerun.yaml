@@ -8,15 +8,15 @@ spec:
   podTemplate:
     securityContext:
       fsGroup: 65532
-workspaces:
-- name: shared-data
-  volumeClaimTemplate:
-    spec:
-      accessModes:
-      - ReadWriteOnce
-      resources:
-        requests:
-          storage: 1Gi
-params:
-- name: repo-url
-  value: https://github.com/Beyond-DevOps-Cloud/home-lab.git
+  workspaces:
+  - name: shared-data
+    volumeClaimTemplate:
+      spec:
+        accessModes:
+        - ReadWriteOnce
+        resources:
+          requests:
+            storage: 1Gi
+  params:
+  - name: repo-url
+    value: https://github.com/Beyond-DevOps-Cloud/home-lab.git
