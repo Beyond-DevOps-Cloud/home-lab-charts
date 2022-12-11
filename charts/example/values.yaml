@@ -25,7 +25,7 @@ serviceAccount:
 
 podAnnotations: {}
 serviceAnnotations: 
-  metallb.universe.tf/address-pool: local
+  metallb.universe.tf/address-pool: production
 
 podSecurityContext: {}
   # fsGroup: 2000
