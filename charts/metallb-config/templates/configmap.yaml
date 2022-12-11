@@ -8,10 +8,7 @@ spec:
   - 192.168.10.0/24
 ---
 apiVersion: metallb.io/v1beta1
-kind: BGPAdvertisement
+kind: L2Advertisement
 metadata:
   name: local
   namespace: metallb-system
-spec:
-  ipAddressPools:
-  - production
