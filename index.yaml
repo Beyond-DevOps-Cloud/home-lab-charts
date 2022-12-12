@@ -3,7 +3,7 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-11T22:02:24.613230552Z"
+    created: "2022-12-12T14:49:39.58360596Z"
     description: A Helm chart for Kubernetes
     digest: c7c3f87bb13da50d145f249ff61f133e29f644c011a4d6ad55894ad38c286754
     name: example
@@ -14,7 +14,7 @@ entries:
   grocy:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-12-11T22:02:24.614046493Z"
+    created: "2022-12-12T14:49:39.584082469Z"
     description: A Helm chart for Kubernetes
     digest: 8a922d0f3f45664e9d27a315e575ec9d31f2105a129078e387470e1b7e348d6a
     name: grocy
@@ -25,7 +25,7 @@ entries:
   metallb-config:
   - apiVersion: v2
     appVersion: 0.0.10
-    created: "2022-12-11T22:02:24.614657923Z"
+    created: "2022-12-12T14:49:39.584398375Z"
     description: A Helm chart for Kubernetes
     digest: dc7d4b7016bde080abf74a8907b9774fc72cd5886730ff3df66e89ca41b8d25e
     name: metallb-config
@@ -33,10 +33,21 @@ entries:
     urls:
     - metallb-config-0.0.10.tgz
     version: 0.0.10
+  nfs-config:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-12-12T14:49:39.584756681Z"
+    description: A Helm chart for Kubernetes
+    digest: 335878dff10536a3e06e0f8d12d8de56a47df65e62c9e6cc61e5ca3ffe8b4aff
+    name: nfs-config
+    type: application
+    urls:
+    - nfs-config-0.0.1.tgz
+    version: 0.0.1
   purelb-config:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-12-11T22:02:24.615336956Z"
+    created: "2022-12-12T14:49:39.585060187Z"
     description: A Helm chart for Kubernetes
     digest: a3c8dca98cd83ec4e28ef7dc02de482cd3d0d85a2c4c25a5c740ef9f4987510c
     name: purelb-config
@@ -47,7 +58,7 @@ entries:
   tekton-pipelines:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-12-11T22:02:24.61603149Z"
+    created: "2022-12-12T14:49:39.585380693Z"
     description: A Helm chart for Kubernetes
     digest: 6d0fb9340c7c988e78bef0e48ff356e7b0bd036ace5c3d394632ebc393cb67f5
     name: tekton-pipelines
@@ -55,4 +66,4 @@ entries:
     urls:
     - tekton-pipelines-0.0.1.tgz
     version: 0.0.1
-generated: "2022-12-11T22:02:24.611844484Z"
+generated: "2022-12-12T14:49:39.582879947Z"
