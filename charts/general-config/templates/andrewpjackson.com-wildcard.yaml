@@ -20,6 +20,7 @@ spec:
           secretAccessKeySecretRef:
             name: route53-secret
             key: secret-access-key
+          role: arn:aws:iam::375094129818:role/route53-cert-manager-andrewpjackson.com-role
 ---
 apiVersion: cert-manager.io/v1
 kind: Certificate
