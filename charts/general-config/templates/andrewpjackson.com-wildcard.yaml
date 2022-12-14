@@ -1,0 +1,35 @@
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: letsencrypt-prod
+spec:
+  acme:
+    email: dorkmeisterx69@gmail.com
+    server: https://acme-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    solvers:
+    - selector:
+        dnsZones:
+          - "andrewpjackson.com"
+      dns01:
+        route53:
+          region: us-east-1
+          hostedZoneID: Z02810593VHHVZMM6XK6N
+          accessKeyID: AKIA5EXAMPLE
+          secretAccessKeySecretRef:
+            name: route53-secret
+            key: secret-access-key
+---
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: le-crt
+spec:
+  secretName: tls-secret
+  issuerRef: 
+    kind: Issuer
+    name: letsencrypt-prod
+  commonName: "*.andrewpjackson.com"
+  dnsNames:
+    - "*.andrewpjackson.com"
