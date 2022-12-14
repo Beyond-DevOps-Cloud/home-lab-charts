@@ -16,7 +16,7 @@ spec:
         route53:
           region: us-east-1
           hostedZoneID: Z02810593VHHVZMM6XK6N
-          accessKeyID: AKIA5EXAMPLE
+          accessKeyID: AKIAVOVK2GSNHIK3LPLS
           secretAccessKeySecretRef:
             name: route53-secret
             key: secret-access-key
