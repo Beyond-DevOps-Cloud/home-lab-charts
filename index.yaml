@@ -3,7 +3,7 @@ entries:
   authentik-config:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-12-15T21:55:24.386736392Z"
+    created: "2022-12-17T15:52:42.57182223Z"
     description: A Helm chart for Kubernetes
     digest: 6fb3d5bdb1ffc65ad73f2f0ad4dd47230ea51fdc8af0cbaf07b8808f4ea671f0
     name: authentik-config
@@ -14,7 +14,7 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-15T21:55:24.387962892Z"
+    created: "2022-12-17T15:52:42.572283537Z"
     description: A Helm chart for Kubernetes
     digest: c7c3f87bb13da50d145f249ff61f133e29f644c011a4d6ad55894ad38c286754
     name: example
@@ -25,7 +25,7 @@ entries:
   general-config:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-12-15T21:55:24.388747091Z"
+    created: "2022-12-17T15:52:42.572614242Z"
     description: A Helm chart for Kubernetes
     digest: d6e4c747babc2f52115b4a63e4bc17c2a0d004bdcd07044bd54f76c42afe27d6
     name: general-config
@@ -36,7 +36,7 @@ entries:
   grocy:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-12-15T21:55:24.389496591Z"
+    created: "2022-12-17T15:52:42.573064948Z"
     description: A Helm chart for Kubernetes
     digest: 8a922d0f3f45664e9d27a315e575ec9d31f2105a129078e387470e1b7e348d6a
     name: grocy
@@ -44,71 +44,4 @@ entries:
     urls:
     - grocy-0.1.3.tgz
     version: 0.1.3
-  metallb-config:
-  - apiVersion: v2
-    appVersion: 0.0.10
-    created: "2022-12-15T21:55:24.39062489Z"
-    description: A Helm chart for Kubernetes
-    digest: dc7d4b7016bde080abf74a8907b9774fc72cd5886730ff3df66e89ca41b8d25e
-    name: metallb-config
-    type: application
-    urls:
-    - metallb-config-0.0.10.tgz
-    version: 0.0.10
-  nfs-config:
-  - apiVersion: v2
-    appVersion: 0.0.2
-    created: "2022-12-15T21:55:24.39107419Z"
-    description: A Helm chart for Kubernetes
-    digest: 4bc95cb78acb8b7b9c24f3e27d148fea277ec307a97662e7e3d720a1a782901e
-    name: nfs-config
-    type: application
-    urls:
-    - nfs-config-0.0.2.tgz
-    version: 0.0.2
-  ocis:
-  - apiVersion: v2
-    appVersion: 2.0.0
-    created: "2022-12-15T21:55:24.394937688Z"
-    description: ownCloud Infinite Scale (oCIS) Helm chart
-    digest: 398fffed60767181861c3645ab0bb9fdd10f97438d8d54fd83cf2b6ae6dd52c8
-    keywords:
-    - owncloud
-    - ocis
-    kubeVersion: ~1.23.0 || ~1.24.0 || ~1.25.0
-    maintainers:
-    - email: devops@owncloud.com
-      name: ownCloud GmbH
-      url: https://owncloud.com
-    name: ocis
-    sources:
-    - https://github.com/owncloud/ocis-charts
-    - https://github.com/owncloud/ocis
-    - https://github.com/cs3org/reva
-    type: application
-    urls:
-    - ocis-0.1.0.tgz
-    version: 0.1.0
-  purelb-config:
-  - apiVersion: v2
-    appVersion: 0.0.2
-    created: "2022-12-15T21:55:24.396575988Z"
-    description: A Helm chart for Kubernetes
-    digest: d73fcd54566890fa75444a176c0e4cd2d949d41af7b8101c321870b2f10d9c83
-    name: purelb-config
-    type: application
-    urls:
-    - purelb-config-0.0.2.tgz
-    version: 0.0.2
-  tekton-pipelines:
-  - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2022-12-15T21:55:24.398262287Z"
-    description: A Helm chart for Kubernetes
-    digest: 098743477189a33b610ab08fa1c71d248938a26fc23938a8f75a10294a0f95cf
-    name: tekton-pipelines
-    type: application
-    urls:
-    - tekton-pipelines-0.0.1.tgz
-    version: 0.0.1
-generated: "2022-12-15T21:55:24.383798594Z"
+generated: "2022-12-17T15:52:42.571519726Z"
