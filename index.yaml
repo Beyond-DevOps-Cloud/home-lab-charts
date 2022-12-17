@@ -3,7 +3,7 @@ entries:
   authentik-config:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-12-17T15:52:42.57182223Z"
+    created: "2022-12-17T16:15:54.160918931Z"
     description: A Helm chart for Kubernetes
     digest: 6fb3d5bdb1ffc65ad73f2f0ad4dd47230ea51fdc8af0cbaf07b8808f4ea671f0
     name: authentik-config
@@ -14,7 +14,7 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-17T15:52:42.572283537Z"
+    created: "2022-12-17T16:15:54.161350634Z"
     description: A Helm chart for Kubernetes
     digest: c7c3f87bb13da50d145f249ff61f133e29f644c011a4d6ad55894ad38c286754
     name: example
@@ -25,7 +25,7 @@ entries:
   general-config:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-12-17T15:52:42.572614242Z"
+    created: "2022-12-17T16:15:54.163004346Z"
     description: A Helm chart for Kubernetes
     digest: d6e4c747babc2f52115b4a63e4bc17c2a0d004bdcd07044bd54f76c42afe27d6
     name: general-config
@@ -36,7 +36,7 @@ entries:
   grocy:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-12-17T15:52:42.573064948Z"
+    created: "2022-12-17T16:15:54.163762652Z"
     description: A Helm chart for Kubernetes
     digest: 8a922d0f3f45664e9d27a315e575ec9d31f2105a129078e387470e1b7e348d6a
     name: grocy
@@ -44,4 +44,4 @@ entries:
     urls:
     - grocy-0.1.3.tgz
     version: 0.1.3
-generated: "2022-12-17T15:52:42.571519726Z"
+generated: "2022-12-17T16:15:54.160599028Z"
